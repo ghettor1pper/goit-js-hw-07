@@ -1,0 +1,117 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-primary {
+  background-color: #4e75ff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px 16px 8px 16px;
+}
+.btn-secondary {
+  background-color: #ff4e4e;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 8px 16px 8px 16px;
+
+}
+.btn-primary:hover {
+    background-color: #6C8CFF ;
+}
+.btn-secondary:hover {
+    background-color: #FF7070 ;
+}
+.input {
+    border-radius: 4px;
+    border: 1px solid #808080;
+    padding: 8px 16px 8px 16px;
+    color: #2E2F42;
+    font-size: 16px;
+
+}
+.input:hover {
+    border-color: #000000;
+    
+}
+.input:active {
+    border-color: #808080;
+}
+#categories .item h2 {
+    color: #2E2F42;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+
+}
+ul#categories { 
+    list-style: none;
+    
+}
+#categories .item ul {
+    list-style: none;
+    color:#2E2F42;
+    padding: 0;
+    
+    
+    
+}
+#categories .item {
+    background-color: #F6F6FE;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+#categories .item ul li {
+
+    border-radius: 4px;
+    border: 1px solid #808080;
+    font-weight: 400;
+    padding: 8px 16px 8px 16px;
+    margin-bottom: 8px;
+}
+.header1 {
+    color: #2E2F42;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+.login-form label {
+    display: block;
+    padding: 8px 0 8px 0;
+
+}
+.login-form label input {
+    display: block;
+}
+.login-form button {
+    margin-top: 10px;
+}
+.widget {
+    text-align: center;
+
+}
+#boxes {
+    background-color: #F6F6FE;
+    display: flex;
+    flex-wrap:  wrap;
+    gap: 10px;
+    padding: 32px ;
+    border-radius: 8px;
+    margin: 0 24px 0 24px 
+}
+#controls {
+    background-color: #F6F6FE;
+    border-radius: 8px;
+    padding: 32px;
+    margin: 24px 24px 16px 24px;
+}
+#controls input {  background-color: #F6F6FE; }
