@@ -1,0 +1,21 @@
+.gallery-image {
+  width: 360px;
+  height: 300px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  row-gap: 48px;
+  column-gap: 24px;
+  column-count: 3;
+  margin: auto;
+  
+}
+.gallery-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
