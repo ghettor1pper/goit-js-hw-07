@@ -1,6 +1,6 @@
 const categoriesList = document.querySelectorAll("#categories .item");
-const catergoriesItemsCount = categoriesList.length;
-console.log("Categories count: " + catergoriesItemsCount);
+const categoriesItemsCount = categoriesList.length;
+console.log("Categories count: " + categoriesItemsCount);
 for (const category of categoriesList) {
   const header = category.querySelector("h2");
   console.log("Category name: " + header.innerText);
